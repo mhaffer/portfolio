@@ -9,7 +9,7 @@ import './certifications.css';
 // Import ../../assets/recentprojects/
 import uxcc from '../../assets/uxcc.PNG';
 import uxcel from '../../assets/uxcel.png';
-import certificationPdf from '../../../public/certifications.pdf'
+import certificationPdf from '../../../src/certifications.pdf'
 
 const useStyles = makeStyles((theme) => ({
     main: {

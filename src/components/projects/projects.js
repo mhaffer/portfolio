@@ -6,7 +6,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import './projects.css';
 
-import pdfPortfolio from '../../../public/pdf-portfolio.pdf';
+import pdfPortfolio from '../../../src/pdf-portfolio.pdf';
 import chuff from "../../assets/chuff.png"
 
 const useStyles = makeStyles((theme) => ({

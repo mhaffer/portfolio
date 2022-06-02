@@ -5,7 +5,6 @@ import { Typography } from "@material-ui/core";
 import { useState } from "react";
 
 import "./SideNavbar.css";
-import pdfPortfolio from"../../assets/pdf-portfolio.pdf"
 
 export const SideNavbar = () => {
   const [activeNav, setActiveNav] = useState('#');

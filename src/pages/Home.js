@@ -13,7 +13,6 @@ import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 import { Portfolio } from '../components/projects/projects';
-import pdfPortfolio from "../assets/pdf-portfolio.pdf"
 import "../components/works/Works.css"
 import { Certifications } from '../components/certifications/certifications';
 
