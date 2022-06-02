@@ -8,11 +8,11 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import dsk from '../../assets/recentprojects/dsk.png';
+import breedmatch from '../../assets/recentprojects/breedmatch.png';
+import conversationdesign from '../../assets/recentprojects/conversationdesign.png';
+import dailyux from '../../assets/recentprojects/dailyux.png';
+import handshake from '../../assets/recentprojects/handshake.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -24,54 +24,48 @@ const useStyles = makeStyles((theme) => ({
 
 export const Works = () => {
   const classes = useStyles();
-  const [projects, setProjects] = useState([
+   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
+      title: "Dog Sports At Kim's", 
+      description: `UX Research & Writing. To discover the user's response to the current Dog Sports at Kim's website, discover pain points and propose a solution to improve their experiences.`,
+      alter: 'Dog Sports Case Study',
+      image: `${dsk}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'K9 Breed Match App', 
+      description: `UX Research, Writing & React Development. The journey from idea to app, finding the perfect dog breed to mesh with your lifestyle.`,
+      alter: 'K9 Breed Match App',
+      image: `${breedmatch}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
+      title: 'Handshake App', 
+      description: `UX Writing. Make billing & project tracking between Freelancers & Business Owners easy.`,
       alter: 'LoFo Project',
-      image: `${Lofo}`,
+      image: `${handshake}`,
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
+      title: 'Daily UX Writing Challenge', 
+      description: `UX Writing. A UX writing prompt in your inbox every day for 14 days from Daily UX Writing.`,
+      alter: 'Daily UX Writing Challenge',
+      image: `${dailyux}`,
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
+      title: 'Conversation Design Challenge', 
+      description: `A UX writing prompt in your inbox every day for 14 days from Daily UX Writing focusing on Chat Bot Conversation.`,
+      alter: 'Conversation Design Challenge',
+      image: `${conversationdesign}`,
     },
   ]);
 
   return (
-    <section id="works">
+    
+    
+     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
           <div className="project" key={ project.id }>
@@ -79,9 +73,9 @@ export const Works = () => {
               <img src={ project.image } alt={ project.alter }/>
             </div>
             <div className="__content_wrapper">
-              <h3 className="title">
+              {<h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
-              </h3>
+              </h3> }
               <p className="description">
                 { project.description }
               </p>
@@ -90,5 +84,5 @@ export const Works = () => {
         ))}
       </Container>
     </section>
-  );
+  ); 
 };

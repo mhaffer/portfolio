@@ -5,6 +5,7 @@ import { Typography } from "@material-ui/core";
 import { useState } from "react";
 
 import "./SideNavbar.css";
+import pdfPortfolio from"../../assets/pdf-portfolio.pdf"
 
 export const SideNavbar = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -19,14 +20,6 @@ export const SideNavbar = () => {
           Home
         </Typography>
       </a>
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
-      >
-        <Typography>
-          Projects
-        </Typography>
-      </a>
       <a href="#about" 
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
@@ -35,6 +28,14 @@ export const SideNavbar = () => {
           About
         </Typography>
       </a>
+      <a href="#projects"
+        onClick={() => setActiveNav('#projects')}
+        className={activeNav === '#projects' ? 'active' : ''} >
+        <Typography>
+          Projects
+        </Typography>
+      </a>
+ 
       <a href="#contact"
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}

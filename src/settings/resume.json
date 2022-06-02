@@ -1,61 +1,49 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Maddison Haffer",
+        "label": "UX Writer",
+        "email": "maddison.haffer@gmail.com",
+        "phone": "(314) 250-4916",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Designer",
-        "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "job1": "UX Writer",
+        "job2": "Content Designer",
+        "description": "Hello! I'm Maddison! Coffee enthusiast, adventurer, dog lover and all around passionate human who would love to help you create gratifying user experiences.",
+        "summary": "based in St. Louis MO.",
+        "keywords": "personal,website,portfolio,template,kit,ux,writing,content,design,webdev,web,developer,st louis, missouri, usa,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://maddisonhaffer.com/",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "address": "",
+            "postalCode": "",
+            "city": "St. Louis",
+            "country": "USA",
+            "countryCode": "US",
+            "region": "Missouri"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "maddison.haffer@gmail.com",
+                "url": "mailto:maddison.haffer@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "maddisonhaffer",
+                "url": "https://www.linkedin.com/in/maddisonhaffer/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "mhaffer",
+                "url": "https://github.com/mhaffer",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "taniyow#9142",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
+                "network": "Twitter",
+                "username": "maddisonhaffer",
+                "url": "https://twitter.com/maddisonhaffer",
+                "x_icon": "fab fa-twitter"
             }
         ]
     },
@@ -118,22 +106,19 @@
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "English",
             "fluency": "Native speaker"
         },
         {
-            "language": "English",
-            "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
+            "language": "German",
+            "fluency": "Intermediate"
         }
+    
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "Dog Sports",
+            "keywords": ["canicross", "agility"]
         }
     ],
     "references": [

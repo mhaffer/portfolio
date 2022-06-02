@@ -12,6 +12,10 @@ import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
+import { Portfolio } from '../components/projects/projects';
+import pdfPortfolio from "../assets/pdf-portfolio.pdf"
+import "../components/works/Works.css"
+import { Certifications } from '../components/certifications/certifications';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -40,8 +44,9 @@ export const Home = () => {
         <Resume />
       </div>
       <SideNavbar />
-      <Works />
       <About />
+      <Portfolio />
+      <Certifications />
       <Contact />
     </>
   );

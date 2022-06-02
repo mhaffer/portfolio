@@ -15,10 +15,12 @@
   align-items: center;
 }
 .__img_wrapper {
-  width: 60em;
+  width: 20em;
+  border-radius: 25px;
 }
 .__img_wrapper > img {
   width: 100%;
+  border-radius: 25px;
 }
 .__content_wrapper {
   width: 40%;

@@ -45,7 +45,7 @@ export const Contact = () => {
     Swal.fire({
       position: 'center',
       icon: 'success',
-      title: 'Your work has been saved',
+      title: "Thanks for reaching out! I'll be in touch soon",
       showConfirmButton: false,
       timer: 1500
     })
