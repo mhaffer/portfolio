@@ -8,8 +8,8 @@ import './certifications.css';
 
 // Import ../../assets/recentprojects/
 import uxcc from '../../assets/uxcc.PNG';
-import uxcel from '../../assets/uxcel.png';
-import certificationPdf from '../../../src/certifications.pdf'
+// import uxcel from '../../assets/uxcel.png';
+// import certificationPdf from '../../../src/certifications.pdf'
 
 const useStyles = makeStyles((theme) => ({
     main: {
@@ -42,7 +42,7 @@ export const Certifications = () => {
               </Typography>
               <p className="aboutme">
                  </p>
-              <a href=  { certificationPdf } target = "_blank" className="contact-btn"> 
+              <a href=  'https://drive.google.com/file/d/1vu7lTRZHQKKnWxBo0o75sukeTljOPECg/view?usp=sharing' target = "_blank" className="contact-btn"> 
                 <i className="fas fa-terminal"></i>
                 <Typography component='span'> See my certifications.</Typography>
               </a>

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/M-Haffer_Resume.pdf';
+//import ResumePDF from './../../assets/M-Haffer_Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
@@ -30,7 +30,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      href= 'https://drive.google.com/file/d/1UF3wWn3Z0kREPH82WsJ4RCFZviaOBiTX/view?usp=sharing'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}

@@ -40,7 +40,7 @@ export const Portfolio = () => {
             </Typography>
             <p className="aboutme">
                           </p>
-            <a href=  { pdfPortfolio } target = "_blank" className="contact-btn"> 
+            <a href=  'https://drive.google.com/file/d/1YkM1gRNFSr01BIxPJTBLynnwm_UcXlod/view?usp=sharing' target = "_blank" className="contact-btn"> 
               <i className="fas fa-terminal"></i>
               <Typography component='span'> Open projects.</Typography>
             </a>
