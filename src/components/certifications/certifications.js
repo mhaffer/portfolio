@@ -44,7 +44,7 @@ export const Certifications = () => {
                  </p>
               <a href=  'https://drive.google.com/file/d/1vu7lTRZHQKKnWxBo0o75sukeTljOPECg/view?usp=sharing' target = "_blank" className="contact-btn"> 
                 <i className="fas fa-terminal"></i>
-                <Typography component='span'> See my certifications.</Typography>
+                <Typography component='span'> See my certifications</Typography>
               </a>
             </div>
           </div>

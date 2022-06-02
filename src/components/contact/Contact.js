@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
 export const Contact = () => {
   const classes = useStyles();
   const greetings = "Get in touch";
-  const aboutme = ``;
 
   return (
     <section id="about">

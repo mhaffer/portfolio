@@ -40,11 +40,16 @@ export const Portfolio = () => {
             </Typography>
             <p className="aboutme">
                           </p>
-            <a href=  'https://drive.google.com/file/d/1YkM1gRNFSr01BIxPJTBLynnwm_UcXlod/view?usp=sharing' target = "_blank" className="contact-btn"> 
+            <a href=  'https://www.canva.com/design/DAFCYAKyik0/view?utm_content=DAFCYAKyik0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target = "_blank" className="contact-btn"> 
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> Open projects.</Typography>
+              <Typography component='span'> My portfolio</Typography>
             </a>
-          </div>
+            <br />
+            <a href=  'https://www.canva.com/design/DAFCf1s1DPA/ISp8UV0NKdy_L_sE9Jzseg/view?utm_content=DAFCf1s1DPA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target = "_blank" className="contact-btn"> 
+              <i className="fas fa-terminal"></i>
+              <Typography component='span'> Daily UX Writing Challenge</Typography>
+            </a>
+            </div>
         </div>
       </Container>
     </section>
