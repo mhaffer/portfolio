@@ -72,12 +72,11 @@
     "education": [
         {
             "institution": "University",
-            "area": "Software Development",
+            "area": "Business, Event Management",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "endDate": "2017"
+            
+            
         }
     ],
     "awards": [

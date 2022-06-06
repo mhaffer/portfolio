@@ -22,7 +22,7 @@ export const Portfolio = () => {
   const greetings = "Check out my work";
 
   return (
-    <section id="portfolio">
+    <section id="projects">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"

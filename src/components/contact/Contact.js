@@ -22,7 +22,7 @@ export const Contact = () => {
   const greetings = "Get in touch";
 
   return (
-    <section id="about">
+    <section id="contact">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"
