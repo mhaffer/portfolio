@@ -24,7 +24,7 @@ export const Certifications = () => {
     const greetings = "Certified UX Writer";
   
     return (
-      <section id="certifications">
+      <section id="certifications" className="indent">
         <Container component="main" className={classes.main} maxWidth="md">
           <div className="about">
             <div className="">
@@ -37,8 +37,8 @@ export const Certifications = () => {
               </a>
             </div>
           </div>
-            <div className="">
-             <Typography component='h2' variant="h5">
+            {/* <div className="">
+             <Typography component='h2' variant="h5" indent>
               <TextDecrypt text="My Skills" />
             </Typography>
             <p className="about"></p>
@@ -53,7 +53,7 @@ export const Certifications = () => {
             <Typography component='span'> HTML/CSS</Typography>
             <br />
             <Typography component='span'> React</Typography>
-            </div>
+            </div> */}
       </Container>
     </section>
     );

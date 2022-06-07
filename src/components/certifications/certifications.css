@@ -51,6 +51,9 @@
     width: 40%;
   }
 }
+.indent{
+  text-indent: 20rem;
+}
 @media (max-width: 768px) {
   .about {
     margin-left: 4em;
@@ -64,4 +67,5 @@
   ._content_wrapper {
     width: 15em;
   }
+  
 }
