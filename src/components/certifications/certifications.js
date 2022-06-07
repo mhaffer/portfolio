@@ -27,28 +27,34 @@ export const Certifications = () => {
       <section id="certifications">
         <Container component="main" className={classes.main} maxWidth="md">
           <div className="about">
-            <div className="_img"
-              style={{ 
-                background: "url(" + uxcc + ")",
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-              }}
-            >
-            </div>
-            <div className="_content_wrapper">
+            <div className="">
               <Typography component='h2' variant="h5">
                 <TextDecrypt text={`${greetings}`} />
               </Typography>
-              <p className="aboutme">
-                 </p>
               <a href=  'https://drive.google.com/file/d/1vu7lTRZHQKKnWxBo0o75sukeTljOPECg/view?usp=sharing' target = "_blank" className="contact-btn"> 
                 <i className="fas fa-terminal"></i>
                 <Typography component='span'> See my certifications</Typography>
               </a>
             </div>
           </div>
-        </Container>
-      </section>
+            <div className="">
+             <Typography component='h2' variant="h5">
+              <TextDecrypt text="My Skills" />
+            </Typography>
+            <p className="about"></p>
+            <Typography component='span'> Figma</Typography>
+            <br />
+            <Typography component='span'> JavaScript</Typography>
+            <br />
+            <Typography component='span'> HTML/CSS</Typography>
+            <br />
+            <Typography component='span'> React</Typography>
+            <br />
+            <Typography component='span'> HTML/CSS</Typography>
+            <br />
+            <Typography component='span'> React</Typography>
+            </div>
+      </Container>
+    </section>
     );
 };

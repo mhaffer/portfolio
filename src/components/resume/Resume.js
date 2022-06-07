@@ -30,7 +30,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= 'https://drive.google.com/file/d/1UF3wWn3Z0kREPH82WsJ4RCFZviaOBiTX/view?usp=sharing'
+      href= 'https://www.canva.com/design/DAFA4TnUQ1g/aYEgDQwhkcGoqrAG_3I9Cg/view?utm_content=DAFA4TnUQ1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}

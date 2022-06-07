@@ -15,6 +15,7 @@ import { Contact } from '../components/contact/Contact';
 import { Portfolio } from '../components/projects/projects';
 import "../components/works/Works.css"
 import { Certifications } from '../components/certifications/certifications';
+import { Skills } from '../components/skills/skills';
 
 const useStyles = makeStyles(() => ({
   root: {
