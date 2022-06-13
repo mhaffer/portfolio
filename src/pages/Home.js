@@ -16,6 +16,7 @@ import { Portfolio } from '../components/projects/projects';
 import "../components/works/Works.css"
 import { Certifications } from '../components/certifications/certifications';
 import { Skills } from '../components/skills/skills';
+import { Footer } from '../components/footer/footer';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -48,6 +49,7 @@ export const Home = () => {
       <Portfolio />
       <Certifications />
       <Contact />
+      <Footer />
     </>
   );
 };

@@ -15,6 +15,14 @@
   padding: 2em;
 }
 
+.indent{
+  text-indent: 20rem;
+}
+
+.bottom-pad{
+  padding-bottom:10%;
+}
+
 .submit-btn {
   margin-right: 20px;
   text-decoration: none;

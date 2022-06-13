@@ -31,6 +31,9 @@
     text-decoration: none;
     background-color: #ec704c;
   }
+  .indent{
+    text-indent: 20rem;
+  }
   @media (max-width: 1024px) {
     .about {
       margin-left: 3rem;

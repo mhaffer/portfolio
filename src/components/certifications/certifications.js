@@ -3,12 +3,14 @@ import React from "react";
 import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 import './certifications.css';
 
 // Import ../../assets/recentprojects/
 import uxcc from '../../assets/uxcc.PNG';
-// import uxcel from '../../assets/uxcel.png';
+import uxcel from '../../assets/uxcel.png';
 // import certificationPdf from '../../../src/certifications.pdf'
 
 const useStyles = makeStyles((theme) => ({
@@ -26,7 +28,7 @@ export const Certifications = () => {
     return (
       <section id="certifications" className="indent">
         <Container component="main" className={classes.main} maxWidth="md">
-          <div className="about">
+          <div className="">
             <div className="">
               <Typography component='h2' variant="h5">
                 <TextDecrypt text={`${greetings}`} />
@@ -35,7 +37,9 @@ export const Certifications = () => {
                 <i className="fas fa-terminal"></i>
                 <Typography component='span'> See my certifications</Typography>
               </a>
+              
             </div>
+            
           </div>
             {/* <div className="">
              <Typography component='h2' variant="h5" indent>

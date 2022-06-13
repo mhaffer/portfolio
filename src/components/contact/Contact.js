@@ -22,9 +22,9 @@ export const Contact = () => {
   const greetings = "Get in touch";
 
   return (
-    <section id="contact">
+    <section id="contact" className="indent">
       <Container component="main" className={classes.main} maxWidth="md">
-        <div className="about">
+        {/* <div className="about">
           <div className="_img"
             style={{ 
               background: "url(" + profile2 + ")",
@@ -33,8 +33,8 @@ export const Contact = () => {
               backgroundRepeat: 'no-repeat',
             }}
           >
-          </div>
-          <div className="_content_wrapper">
+          </div> */}
+          <div className="bottom-pad">
             <Typography component='h2' variant="h5">
               <TextDecrypt text={`${greetings}`} />
             </Typography>
@@ -48,9 +48,11 @@ export const Contact = () => {
             </a>
             
           </div>
-        </div>
+        {/* </div> */}
+        
       </Container>
     </section>
+    
   );
 };
 
