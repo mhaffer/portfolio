@@ -8,10 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import './certifications.css';
 
-// Import ../../assets/recentprojects/
-import uxcc from '../../assets/uxcc.PNG';
-import uxcel from '../../assets/uxcel.png';
-// import certificationPdf from '../../../src/certifications.pdf'
+
 
 const useStyles = makeStyles((theme) => ({
     main: {
@@ -21,14 +18,25 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-export const Certifications = () => {
+export const Design = () => {
     const classes = useStyles();
-    const greetings = "Certified UX Writer";
+    const greetings2 = "UX Design";
   
     return (
       <section id="certifications" className="indent">
         <Container component="main" className={classes.main} maxWidth="md">
-          <div className="">
+          
+        <Typography component='h2' variant="h5">
+              <TextDecrypt text={`${greetings2}`} />
+            </Typography>
+            <a href=  'https://www.canva.com/design/DAFDfpX1IZk/2KXJ_Yc-PEeTThBZSaVHbg/view?utm_content=DAFDfpX1IZk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target = "_blank" className="contact-btn"> 
+              <i className="fas fa-terminal"></i>
+              <Typography component='span'> UX Design Portfolio</Typography>
+            </a>
+            <br />
+          
+          
+          {/* <div className="">
             <div className="">
               <Typography component='h2' variant="h5">
                 <TextDecrypt text={`${greetings}`} />
@@ -41,7 +49,14 @@ export const Certifications = () => {
             </div>
             
           </div>
-            {/* <div className="">
+            */}
+      </Container>
+    </section>
+    );
+};
+
+
+ {/* <div className="">
              <Typography component='h2' variant="h5" indent>
               <TextDecrypt text="My Skills" />
             </Typography>
@@ -58,7 +73,3 @@ export const Certifications = () => {
             <br />
             <Typography component='span'> React</Typography>
             </div> */}
-      </Container>
-    </section>
-    );
-};

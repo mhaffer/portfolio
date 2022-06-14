@@ -14,7 +14,7 @@ import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 import { Portfolio } from '../components/projects/projects';
 import "../components/works/Works.css"
-import { Certifications } from '../components/certifications/certifications';
+import { Design } from '../components/certifications/certifications';
 import { Skills } from '../components/skills/skills';
 import { Footer } from '../components/footer/footer';
 
@@ -47,7 +47,7 @@ export const Home = () => {
       <SideNavbar />
       <About />
       <Portfolio />
-      <Certifications />
+      <Design />
       <Contact />
       <Footer />
     </>

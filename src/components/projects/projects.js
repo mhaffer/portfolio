@@ -42,7 +42,7 @@ export const Portfolio = () => {
           
             <a href=  'https://www.canva.com/design/DAFCYAKyik0/view?utm_content=DAFCYAKyik0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target = "_blank" className="contact-btn"> 
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> UX Writing portfolio</Typography>
+              <Typography component='span'> UX Writing Portfolio</Typography>
             </a>
             <br />
             
@@ -51,17 +51,17 @@ export const Portfolio = () => {
               <Typography component='span'> Daily UX Writing Challenge</Typography>
             </a>
 
-            <Typography component='h2' variant="h5">
-              <TextDecrypt text={`${greetings2}`} />
-            </Typography>
-            <a href=  'https://www.canva.com/design/DAFDfpX1IZk/2KXJ_Yc-PEeTThBZSaVHbg/view?utm_content=DAFDfpX1IZk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target = "_blank" className="contact-btn"> 
-              <i className="fas fa-terminal"></i>
-              <Typography component='span'> UX Design Portfolio</Typography>
-            </a>
             <br />
+              <a href=  'https://drive.google.com/file/d/1vu7lTRZHQKKnWxBo0o75sukeTljOPECg/view?usp=sharing' target = "_blank" className="contact-btn"> 
+                <i className="fas fa-terminal"></i>
+                <Typography component='span'> UX Writing Certifications</Typography>
+              </a>
+
+            
             </div>
         {/* </div> */}
       </Container>
     </section>
+    
   );
 };

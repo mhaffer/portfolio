@@ -40,7 +40,7 @@ export const Contact = () => {
             </Typography>
             <a href="mailto:maddisonhaffer@gmail.com" className="contact-btn">
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send an email</Typography>
+              <Typography component='span'> Email Me</Typography>
             </a> <br></br>
             <a href="https://www.linkedin.com/in/maddisonhaffer/" className="contact-btn">
               <i className="fas fa-terminal"></i>
