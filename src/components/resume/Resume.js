@@ -30,7 +30,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= 'https://www.canva.com/design/DAFEhjsotO8/Ez1KmvP2XIPF7B9Gx3DOEA/view?utm_content=DAFEhjsotO8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+      href= 'https://www.figma.com/file/DbYHD84bNJWw5Jw7VwJ3BL/Maddison-Haffer-Resume?node-id=0%3A1'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
